@@ -1,0 +1,176 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+<style>
+   div.ex3 {
+   width: 100%;
+   height: 500px;
+   overflow: auto;
+   }
+   div.text-center {
+   text-align: center;
+   }
+</style>
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+   please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<!-- The crowd-classifier element will create a tool for the Worker to select the
+   correct answer to your question -->
+<crowd-form answer-format="flatten-objects">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+         <tr>
+            <td width="33%" style="vertical-align:top;">
+               <div style="text-align:center">
+                  <h1>Step 1:</h1>
+                  <h3>Read the Article</h3>
+               </div>
+            </td>
+            <td width="33%" style="vertical-align: middle;">
+               <div style="text-align:center">
+                  <h1>Step 2:</h1>
+                  <h3>Choose your preferred list of recommendations</h3>
+                  <div>
+                     <input type="radio" id="mono" name="optionChoice-type" value="mono" required>
+                     <label for="mono">Option A</label> 
+                  </div>
+                  <div> <input type="radio" id="multi" name="optionChoice-type" value="multi">
+                     <label for="multi">Option B</label>
+                  </div>
+               </div>
+            </td>
+         </tr>
+         <tr>
+            <br><br/>
+            <td style="vertical-align:top;">
+               <div>
+                  <br><br>
+                  <div class="ex3" >
+                     <div class="text-center">
+                        <img style="width:100%" src=${article}>
+                     </div>
+                     <hr/>
+                  </div>
+               </div>
+            </td>
+            <td style="vertical-align:top;" width="66%">
+               <div id="shuffle">
+               <div style="margin-left:4%; margin-right:0%; float:left; width:33%;">
+                  <div class="text-center">
+                     <br>
+                     <h1>Option A </h1>
+                     <div id='id1'>
+                        <input type="hidden" name="optionPosition" value="OptionB-left" />
+                        <div align="left" style="padding-left: 100px; padding-right:50px; width:100%"> 
+                           <b>${englishTitle1}</b>
+                           <br/>
+                           ${englishSuggestion1}
+                           <br/><br/>
+                           <b>
+                           ${englishTitle2}
+                           </b>
+                           <br/>
+                           ${englishSuggestion2}
+                           <br/><br/>
+                           <b>
+                           ${englishTitle3}
+                           </b>
+                           <br/>
+                           ${englishSuggestion3}
+                           <br/><br/>
+                           <b>
+                           ${englishTitle4}
+                           </b>
+                           <br/>
+                           ${englishSuggestion4}
+                           <br/><br/>
+                           <b>
+                           ${englishTitle5}
+                           </b>
+                           <br/>
+                           ${englishSuggestion5}
+                           <br/><br/>
+                           <b>
+                           ${englishTitle6}
+                           </b>
+                           <br/>
+                           ${englishSuggestion6}
+                           <br/><br/>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div style="margin-left:4%; margin-right:0%; float:left; width:33%;">
+               <div class="text-center">
+                  <br>
+                  <h1>Option B </h1>
+                  <div id='d2'>
+                     <input type="hidden" name="optionPosition" value="OptionA-left" />
+                     <div align="left" style="padding-left: 100px; padding-right:50px; width:100%">
+                        <div id="shuffle1"'>
+                           <div id='d1'>
+                              <input type="hidden" name="optionPosition1" value="EnglishBottom" />
+                              <b>${englishTitle1}</b>
+                              <br/>
+                              ${englishSuggestion1}
+                              <br/><br/>
+                              <b>
+                              ${englishTitle2}
+                              </b>
+                              <br/>
+                              ${englishSuggestion2}
+                              <br/><br/>
+                              <b>
+                              ${englishTitle3}
+                              </b>
+                              <br/>
+                              ${englishSuggestion3}
+                              <br/><br/>
+                           </div>
+                           <div id='d2'>
+                              <input type="hidden" name="optionPosition1" value="EnglishTop" />
+                              <b>
+                              ${spanishTitle1}
+                              </b>
+                              <br/>
+                              ${spanishSuggestion1}
+                              <br/><br/>
+                              <b>
+                              ${spanishTitle2}
+                              </b>
+                              <br/>
+                              ${spanishSuggestion2}
+                              <br/><br/>
+                              <b>
+                              ${spanishTitle3}
+                              </b>
+                              <br/>
+                              ${spanishSuggestion3}
+                              <br/><br/>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+   <script>
+      var parent = document.getElementById("shuffle");
+      var divs = parent.children;
+      var frag = document.createDocumentFragment();
+      while (divs.length) {
+          frag.appendChild(divs[Math.floor(Math.random() * divs.length)]);
+      }
+      parent.appendChild(frag);
+   </script>
+   <script>
+      var parent = document.getElementById("shuffle1");
+      var divs = parent.children;
+      var frag = document.createDocumentFragment();
+      while (divs.length) {
+          frag.appendChild(divs[Math.floor(Math.random() * divs.length)]);
+      }
+      parent.appendChild(frag);
+   </script>
+</crowd-form>
