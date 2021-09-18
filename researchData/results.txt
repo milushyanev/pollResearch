@@ -1,0 +1,77 @@
+Batch A new:
+
+Average English Proficiency: 4.433301870827997
+Average Spanish Proficiency: 3.6063132254999988
+Mono Language Choice: 412
+Multi Language Choice: 88
+Mono Option Left Side: 263
+Dual Option Left Side: 237
+Spanish Option Top: 261
+English Option Top: 239
+When Mono and English-Left was selected: 236
+When Dual Screen was choosen and Spanish was Top: 41
+When mono was choosen and English Average proficiency: 4.429708183683697
+When Dual Screen was choosen and Spanish Average proficiency: 3.340168905272727
+Total: 500/862
+
+
+
+Batch A old:
+
+Average English Proficiency: 4.601779139638795
+Average Spanish Proficiency: 2.484773238090301
+Mono Language Choice: 234
+Multi Language Choice: 65
+Mono Option Left Side: 167
+Dual Option Left Side: 132
+Spanish Option Top: 154
+English Option Top: 145
+When Mono and English-Left was selected: 148
+When Dual Screen was choosen and Spanish was Top: 34
+When mono was choosen and English Average proficiency: 4.5987839426652375
+When Dual, Spanish was choosen and Spanish Average proficiency: 2.9978477749538457
+Total: 299/607
+
+Batch B:
+
+Average English Proficiency: 4.3195023910699994
+Average Spanish Proficiency: 3.811902180739999
+Mono Language Choice: 343
+Multi Language Choice: 157
+Mono Option Left Side: 255
+Dual Option Left Side: 245
+Spanish Option Top: 245
+English Option Top: 255
+When Mono and Spanish-Left was selected: 200
+When Dual Screen was choosen and Spanish was Top: 75
+When mono was choosen and English Average proficiency: 4.309104506160819       
+When Dual Screen was choosen and Spanish Average proficiency: 3.521966069070064
+Total:500/1021
+
+Batch C:
+
+
+Average English Proficiency: 4.486401011963994
+Average Spanish Proficiency: 3.7247215496300026
+English Language Choice: 402
+Spanish Language Choice: 98
+When English and English-Left was selected: 223
+When English and English-Right was selected: 179
+
+Total: 500/810
+
+
+Batch D:
+
+Average English Proficiency: 4.4776228860059994
+Average Spanish Proficiency: 3.763056391044003
+English Language Choice: 381
+Spanish Language Choice: 119
+When English and English-Left was selected: 215
+When English and English-Right was selected: 166
+Total: 500/823
+
+Batch E:
+
+
+
