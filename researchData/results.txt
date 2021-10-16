@@ -14,12 +14,22 @@ When mono was choosen and English Average proficiency: 4.429708183683697
 When Dual Screen was choosen and Spanish Average proficiency: 3.340168905272727
 Total: 500/862
 
+Dual Values for Proficiency range 1-2: 19
+Dual Values for Proficiency range 2-3: 16
+Dual Values for Proficiency range 3-4: 19
+Dual Values for Proficiency range 4-5: 34
+Mono Language option displayed on left side: 263
+Dual Language option displayed on left side: 237
+English was on top for Dual Option: 239
+Second Language was on top for Dual Option: 261
+
+
 
 
 Batch A old:
 
 Average English Proficiency: 4.601779139638795
-Average Spanish Proficiency: 2.484773238090301
+Average Spanish Proficiency: 4.307471264367816
 Mono Language Choice: 234
 Multi Language Choice: 65
 Mono Option Left Side: 167
@@ -31,6 +41,36 @@ When Dual Screen was choosen and Spanish was Top: 34
 When mono was choosen and English Average proficiency: 4.5987839426652375
 When Dual, Spanish was choosen and Spanish Average proficiency: 2.9978477749538457
 Total: 299/607
+
+Dual Values for Proficiency range 1-2: 21
+Dual Values for Proficiency range 2-3: 9
+Dual Values for Proficiency range 3-4: 11
+Dual Values for Proficiency range 4-5: 24
+Mono Language option displayed on left side: 167
+Dual Language option displayed on left side: 132
+English was on top for Dual Option: 145
+Second Language was on top for Dual Option: 154
+
+
+
+
+
+
+Batch A Chinese:
+
+Average English Proficiency: 3.79171551724137
+Average Chinese Proficiency: 4.304773238090301
+Mono Language Choice: 270
+Multi Language Choice: 78
+Dual Values for Proficiency range 1-2: 1
+Dual Values for Proficiency range 2-3: 8
+Dual Values for Proficiency range 3-4: 15
+Dual Values for Proficiency range 4-5: 54
+Mono Language option displayed on left side: 162
+Dual Language option displayed on left side: 186
+English was on top for Dual Option: 175
+Second Language was on top for Dual Option: 173
+
 
 Batch B:
 
@@ -47,6 +87,17 @@ When Dual Screen was choosen and Spanish was Top: 75
 When mono was choosen and English Average proficiency: 4.309104506160819       
 When Dual Screen was choosen and Spanish Average proficiency: 3.521966069070064
 Total:500/1021
+
+
+Dual Values for Proficiency range 1-2: 24
+Dual Values for Proficiency range 2-3: 30
+Dual Values for Proficiency range 3-4: 35
+Dual Values for Proficiency range 4-5: 68
+Mono Language option displayed on left side: 255
+Dual Language option displayed on left side: 245
+English was on top for Dual Option: 255
+Second Language was on top for Dual Option: 245
+
 
 Batch C:
 
@@ -67,11 +118,40 @@ Average English Proficiency: 4.4776228860059994
 Average Spanish Proficiency: 3.763056391044003
 English Language Choice: 381
 Spanish Language Choice: 119
-When English and English-Left was selected: 215
-When English and English-Right was selected: 166
+When English was chosen and English-Left was selected: 215
+When English was chosen and English-Right was selected: 166
 Total: 500/823
 
+Spanish count:119
+English Count: 381
+Spanish Values for Proficiency range 1-2: 11
+Spanish Values for Proficiency range 2-3: 13
+Spanish Values for Proficiency range 3-4: 34
+Spanish Values for Proficiency range 4-5: 61
+English Language option displayed on left side: 253
+Spanish Language option displayed on left side: 247
+
+
 Batch E:
+
+Total Ran: 212
+Total Spam after 1st round: 25
+Total Spam after 2nd round: 41
+Total Good Surveys: 146
+Average English Proficiency: 4.6981132
+Average Spanish Proficiency: 3.3830023
+Option1 English good/bad: 1. 80/20 2. 70/30 3. 90/10 4. 90/10 5. 80/20 6. 100/0
+Option1 Spanish good/bad: 1. 90/10 2. 80/20 3. 70/30  4. 50/50  5. 70/30  6. 70/30 
+Option2 English good/bad: 1. 100/0 2. 100/0 3. 90/10 4. 80/20 5. 80/20 6. 60/40
+Option2 Spanish good/bad: 1. 60/40 2. 70/30 3.70/30 4. 60/40 5. 70/30 6. 70/30 
+Option3 English good/bad: 1. 50/50 2. 60/40 3. 80/20 4. 70/30 5. 70/30 6. 70/30
+Option3 Spanish good/bad: 1. 80/20 2. 80/20 3. 70/30 4. 70/30 5. 60/40 6. 80/20 
+Option4 English good/bad: 1. 100/0 2. 100/0 3. 90/10 4. 90/10 5. 100/0 6. 90/10
+Option4 Spanish good/bad: 1. 70/30 2. 60/40  3. 50/50  4. 70/30 5. 70/30 6. 80/20 
+Option5 English good/bad: 1. 100/0 2. 100/0 3. 100/0 4. 70/30 5. 70/30 6. 90/10
+Option5 Spanish good/bad: 1. 60/40 2. 70/30 3. 70/30 4. 80/20 5. 90/10 6. 90/10 
+Option6 English good/bad: 1. 80/20 2. 80/20 3. 70/30 4. 70/30 5. 80/20 6. 100/0
+Option6 Spanish good/bad: 1. 60/40 2. 50/50 3. 70/30 4. 60/40 5. 80/20 6. 80/20 
 
 
 
