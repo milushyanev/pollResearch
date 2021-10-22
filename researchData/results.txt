@@ -154,4 +154,20 @@ Option6 English good/bad: 1. 80/20 2. 80/20 3. 70/30 4. 70/30 5. 80/20 6. 100/0
 Option6 Spanish good/bad: 1. 60/40 2. 50/50 3. 70/30 4. 60/40 5. 80/20 6. 80/20 
 
 
+***NEW STUDY***
+
+Batch A When Spanish/Chinese Proficiency is greater than English
+English Proficiency|| Total 1-2:47 || Mono Language: 35 || Dual Language:12 ||
+English Proficiency|| Total 2-3:115 || Mono Language: 93 || Dual Language:22 ||
+English Proficiency|| Total 3-4:122 || Mono Language: 93 || Dual Language:29 ||
+English Proficiency|| Total 4-5:148 || Mono Language: 126 || Dual Language:22 ||
+
+Batch B When English Proficiency is greater than Spanish
+Spanish Proficiency|| Total 1-2:56 || Mono Language: 33 || Dual Language:23 ||
+Spanish Proficiency|| Total 2-3:75 || Mono Language: 46 || Dual Language:29 ||
+Spanish Proficiency|| Total 3-4:66 || Mono Language: 41 || Dual Language:25 ||
+Spanish Proficiency|| Total 4-5:79 || Mono Language: 62 || Dual Language:17 ||
+
+
+
 
