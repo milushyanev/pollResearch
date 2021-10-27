@@ -170,17 +170,17 @@ Spanish Proficiency|| Total 4-5:79 || Mono Language: 62 || Dual Language:17 ||
 
 
 Batch C When English Proficiency is less than Spanish
-|| Total 1-2:5 || Egnlish Language recommendation: 2 || Spanish Language recommendation:3 ||
-|| Total 2-3:16 || English Language recommendation: 12 || Spanish Language recommendation:4 ||
-|| Total 3-4:40 || English Language recommendation: 29 || Spanish Language recommendation:11 ||
-|| Total 4-5:84 || Egnlish Language recommendation: 71 || Spanish Language recommendation:13 ||
+English Proficiency|| Total 1-2:5 || Egnlish Language recommendation: 2 || Spanish Language recommendation:3 ||
+English Proficiency|| Total 2-3:16 || English Language recommendation: 12 || Spanish Language recommendation:4 ||
+English Proficiency|| Total 3-4:40 || English Language recommendation: 29 || Spanish Language recommendation:11 ||
+English Proficiency|| Total 4-5:84 || Egnlish Language recommendation: 71 || Spanish Language recommendation:13 ||
 
 
 Batch D When Spanish Proficiency is less than English
-|| Total 1-2:74 || Egnlish Language recommendation: 62 || Spanish Language recommendation:12 ||
-|| Total 2-3:64 || English Language recommendation: 51 || Spanish Language recommendation:13 ||
-|| Total 3-4:79 || English Language recommendation: 49 || Spanish Language recommendation:30 ||
-|| Total 4-5:99 || Egnlish Language recommendation: 71 || Spanish Language recommendation:28 ||
+Spanish Proficiency|| Total 1-2:74 || Egnlish Language recommendation: 62 || Spanish Language recommendation:12 ||
+Spanish Proficiency|| Total 2-3:64 || English Language recommendation: 51 || Spanish Language recommendation:13 ||
+Spanish Proficiency|| Total 3-4:79 || English Language recommendation: 49 || Spanish Language recommendation:30 ||
+Spanish Proficiency|| Total 4-5:99 || Egnlish Language recommendation: 71 || Spanish Language recommendation:28 ||
 
 
 
